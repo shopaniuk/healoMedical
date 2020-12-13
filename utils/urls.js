@@ -3,11 +3,11 @@ export default {
   dbUrl: process.env.MONGO_DB ?? "mongodb://localhost:27017",
   pages: {
     index: "/",
-    ssr: "/ssr",
-    login: "/login",
-    app: {
-      home: "/app",
-    },
+    oacesys: "/oacesys",
+    clinicians: "/clinicians",
+    investors: "/investors",
+    about: "/about",
+    中文版: "/中文版",
   },
   api: {
     example: "/api/example",

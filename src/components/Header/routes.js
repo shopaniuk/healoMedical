@@ -8,21 +8,34 @@ const routes = [
     atEnd: false,
   },
   {
-    name: "SSR",
-    link: urls.pages.ssr,
+    name: "O-ACE-Sys®",
+    link: urls.pages.oacesys,
     auth: false,
     atEnd: false,
   },
   {
-    name: "Login",
-    link: urls.pages.login,
+    name: "Clinicians",
+    link: urls.pages.clinicians,
     auth: false,
-    atEnd: true,
+    atEnd: false,
   },
   {
-    name: "App Home",
-    link: urls.pages.app.home,
-    auth: true,
+    name: "Investors",
+    link: urls.pages.investors,
+    auth: false,
+    atEnd: false,
+  },
+  {
+    name: "About",
+    link: urls.pages.about,
+    auth: false,
+    atEnd: false,
+  },
+  {
+    name: "中文版",
+    link: urls.pages.中文版,
+    auth: false,
+    atEnd: false,
   },
 ];
 
