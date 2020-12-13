@@ -13,7 +13,7 @@ import "../../public/static/styles/App.css";
 const MyApp = ({ Component, pageProps, router, currentUser }) => (
   <>
     <Head>
-      <title>Next.js-Starter</title>
+      <title>HealO Medical</title>
     </Head>
     <div className="App">
       <Header loggedIn={currentUser != null} currentRoute={router.asPath} />
